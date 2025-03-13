@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -fPIC   -shared -Wl,-soname,libplatformLinux.so -o /home/indowings/sf_45/devel/lib/libplatformLinux.so CMakeFiles/platformLinux.dir/src/linux/platformLinux.cpp.o 

@@ -1,0 +1,8 @@
+prefix=/home/indowings/sf_45/devel
+
+Name: sf45_lidar
+Description: Description of sf45_lidar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

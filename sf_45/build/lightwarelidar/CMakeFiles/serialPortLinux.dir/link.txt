@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -fPIC   -shared -Wl,-soname,libserialPortLinux.so -o /home/indowings/sf_45/devel/lib/libserialPortLinux.so CMakeFiles/serialPortLinux.dir/src/linux/lwSerialPortLinux.cpp.o 
