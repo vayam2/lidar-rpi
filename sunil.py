@@ -4,7 +4,8 @@ import time
 import numpy
 import os
 import requests
-
+    existing_numbers = [int(f.split("_")[-1].split(".")[0]) for f in existing_files]
+    img_counter = max(existing_numbers) + 1  # Start from the next number
 #time.sleep(1)
 #os.system("gnome-terminal -e 'bash -c \"" + '~/.local/bin/mavproxy.py --out 127.0.0.1:6969' + ";bash\"'")
 #print("heyyyyyyy")
